@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Profile Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>GitHub Profile Analyzer</h1>
+
+    <div class="mode-toggle">
+      <button class="mode-btn active" onclick="setMode('single')">Single</button>
+      <button class="mode-btn" onclick="setMode('compare')">Compare</button>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" id="username" placeholder="Enter GitHub username" />
+      <input type="text" id="username2" placeholder="Enter second username" class="hidden" />
+      <button onclick="analyze()">Analyze</button>
+    </div>
+
+    <div id="results" class="hidden">
+      <div id="user1-results"></div>
+      <div id="user2-results" class="hidden"></div>
+    </div>
+
+    <div id="error-msg" class="hidden"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
