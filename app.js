@@ -4,7 +4,7 @@ let compareMode = false;
 const LANG_COLORS = {
   JavaScript: '#f1e05a',
   Python: '#3572A5',
-  HTML: '#e34c26',
+  HTML: '#e92c1f',
   CSS: '#563d7c',
   'C++': '#f34b7d',
   C: '#555555',
