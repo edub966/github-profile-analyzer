@@ -5,7 +5,7 @@ Enter any GitHub username and instantly see a breakdown of their profile — lan
 ## Features
 
 - **Language breakdown** — segmented bar chart showing language distribution across all public repos
-- **Developer personality** — automatically tagged based on top language (e.g. 🧠 Data & AI Nerd, 🌐 Web Builder)
+- **Developer personality** — automatically tagged based on top language (e.g. Data & AI Nerd, Web Builder)
 - **Top repositories** — sorted by stars, with description, language, and fork count
 - **Push activity** — bar chart of commit activity over the last 7 days
 - **Compare mode** — analyze two GitHub users side by side
